@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial Narrow";
+  background: antiquewhite;
+  color: black;
+}
+.booklist {
+  text-align: center;
+  display: grid;
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: 500px;
+  gap: 2rem;
+}
+.book {
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+h1 {
+  color: red;
+}
+.book h1 {
+  margin-top: 0.5rem;
+}
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: green;
+  border-radius: 0.5rem;
+}
+#buy {
+  padding: 0.5rem;
+  background: red;
+  border-radius: 0.5rem;
+}
